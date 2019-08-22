@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sets submit button label 'Saving...' when saving is true 1`] = `
+<div
+  className="col md-12 "
+>
+  <div
+    className="row border rounded  border-lightgray content-color h-45"
+  >
+    <div
+      className="col-md-4 align-self-center p-1"
+    >
+      <span
+        className="whiteBackground border  border-success"
+      >
+        100
+         % 
+      </span>
+       
+      <span
+        className="ml-3 small align-self-left font-weight-bold text-left"
+        style={
+          Object {
+            "color": "#052948",
+          }
+        }
+      >
+         Total Allocation 
+      </span>
+    </div>
+    <div
+      className="col-md-1 align-self-center p-1"
+    />
+    <div
+      className="col-md-2"
+    />
+    <div
+      className="col-md-5 ml-auto"
+    >
+      <button
+        className="mt-2 mb-2 btn btn-default text-center "
+        onClick={[Function]}
+        type="button"
+      >
+        Confirm
+      </button>
+      <a
+        className="ml-2 anchor pull-right text-center"
+        href="#"
+        onClick={[Function]}
+      >
+        Reset
+      </a>
+    </div>
+  </div>
+</div>
+`;

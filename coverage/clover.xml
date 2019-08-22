@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1566420303219" clover="3.2.0">
+  <project timestamp="1566420303219" name="All files">
+    <metrics statements="81" coveredstatements="56" conditionals="30" coveredconditionals="16" methods="43" coveredmethods="26" elements="154" coveredelements="98" complexity="0" loc="81" ncloc="81" packages="6" files="15" classes="15"/>
+    <package name="api">
+      <metrics statements="9" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="apiUtils.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/api/apiUtils.js">
+        <metrics statements="7" coveredstatements="1" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="2" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="assestApi.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/api/assestApi.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.assestdashboard">
+      <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <file name="LogoComponent.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/components/assestdashboard/LogoComponent.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="StrategyList.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/components/assestdashboard/StrategyList.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+      <file name="ToggleAction.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/components/assestdashboard/ToggleAction.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+      <file name="TotalAllocation.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/components/assestdashboard/TotalAllocation.js">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.common">
+      <metrics statements="12" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="4"/>
+      <file name="Spinner.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/components/common/Spinner.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="Toggle.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/components/common/Toggle.js">
+        <metrics statements="10" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="3"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux.actions">
+      <metrics statements="25" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="7"/>
+      <file name="actionTypes.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/redux/actions/actionTypes.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+      <file name="apiStatusActions.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/redux/actions/apiStatusActions.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="assestActions.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/redux/actions/assestActions.js">
+        <metrics statements="16" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="5"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux.reducers">
+      <metrics statements="6" coveredstatements="3" conditionals="9" coveredconditionals="3" methods="3" coveredmethods="2"/>
+      <file name="assestReducer.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/redux/reducers/assestReducer.js">
+        <metrics statements="6" coveredstatements="3" conditionals="9" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="3"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="initialState.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/redux/reducers/initialState.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="util">
+      <metrics statements="17" coveredstatements="13" conditionals="9" coveredconditionals="6" methods="10" coveredmethods="6"/>
+      <file name="allocationUtil.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/util/allocationUtil.js">
+        <metrics statements="16" coveredstatements="12" conditionals="9" coveredconditionals="6" methods="10" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="8" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="constants.js" path="/Users/tkotia357/Documents/Personnel/FinalDashboard/src/util/constants.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

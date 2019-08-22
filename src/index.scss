@@ -1,0 +1,92 @@
+#app {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+
+$base-color: #F5F5F5;
+$header-color:#304e7a;
+$color-white:white;
+$color-grey:grey;
+$colors-list:#505974 #236B8E #4E78A0 #0276FD;
+$color-textbox-font:#3498db;
+$fixed-width-276:276px;
+$fixed-width-275:274px;
+
+@each $current-color in $colors-list {
+    $i: index($colors-list, $current-color);
+    .stuff-#{$i} { 
+        border-left: solid 6px;
+        border-width:5px;
+        border-color:$current-color;
+        width:100%;
+        height: 20px;
+    }
+}
+
+.percentage-font-color{
+color:$color-textbox-font;
+}
+.fontGreyColor{
+   color:$color-grey;
+}
+.content-color{
+  background-color: $base-color;
+}
+.whiteBackground{
+  background-color: $color-white;
+}
+.fixed-width-276{
+   width:$fixed-width-276;
+}
+.fixed-width-275{
+  width:$fixed-width-275;
+}
+.headerBackground{
+  background-color:$header-color;
+}
+.headerfontcolor{
+  color:$color-white;
+}
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-default {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: #f8fafc;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 40px;
+  background: #1d5fa1;
+  transition: all 0.3s ease 0s;
+  padding-top: 5px;
+}
+
+.anchor {
+  color: #5e88b7;
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  text-decoration: underline;
+  margin-top: 1px;
+}
+
+input[type=number] {
+  width: 30%;
+  border: solid $color-textbox-font;
+  color:$color-textbox-font;
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+}
+.percentInput { position:relative;}
+    .percentInput span { position: absolute; top:2px; right: 4px; line-height:100%; vertical-align: middle; }
+    .num_percent { width:30px; text-align: right; padding-right: 15px; }
+
+
+    

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sets submit button label 'Saving...' when saving is true 1`] = `
+<div
+  className="small mt-5"
+>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="d-flex justify-content-center mr-5 medium"
+  >
+    Please input desired allocation into available startegies to enable analysis and further actions  
+  </div>
+</div>
+`;
